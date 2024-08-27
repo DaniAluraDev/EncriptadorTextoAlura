@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        
+        <img src="src/logo.svg" alt="Logo" class="logoAlura">
+    </header>
+    
+    <main>
+
+        <!-- Caja texto y botones-->
+        <section class="encriptador">
+                <textarea class="encriptar" id="" placeholder="ingresa el texto aqui"></textarea>
+                <div class="encriptador-aviso">
+                    <img src="src/aviso.svg" alt="Imagen aviso" class="Img-aviso">
+                    <p class="texto-aviso">Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="encriptador-contenedor">
+                    <button type="submit" class="btn-encriptar">Encriptar!</button>
+                    <button type="submit" class="btn-desencriptar">Desencriptar!</button>
+                </div>
+        </section>
+                <section class="tarjeta">
+                    <div class="tarjeta-contenedor">
+                        <img src="src/muñeco.svg" alt="Imagen muñeco" class="img-muñeco">
+                        <p class="texto-uno">Ningún mensaje fue encontrado</p>
+                        <p class="texto-dos">Ingrese el texto que deseas encriptar o desencriptar</p>
+                    </div>
+                    <textarea name="mensaje" class="evaluar" readonly></textarea>
+                    <button type="submit" class="btn-copiar">Copiar</button>
+                </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <p class="copyright">&copy; copyright 2024 - Encriptador de texto - Desarrollado por DaniAluraDev en Oracle ONE</p>
+        <a href="#" rel="">
+            <img src="src/linkedin.svg" alt="Logo linkedin" class="linkedin">
+            <img src="src/github.svg" alt="Logo Github" class="Github">
+            <img src="src/favicon.ico" alt="Next oracle" class="Next Oracle">
+        </a>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
